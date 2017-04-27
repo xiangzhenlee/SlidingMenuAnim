@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yushan.slidingmenu.MyLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dl_left"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include android:id="@+id/main_title"
+        layout="@layout/layout_title"/>
+
+    <!--主布局-->
+    <TextView
+        android:id="@+id/tv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:gravity="center"
+        android:text="主界面"
+        android:textColor="#333"
+        android:textSize="20sp" />
+
+</com.yushan.slidingmenu.MyLinearLayout>
